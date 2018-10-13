@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'simple_form', '~> 3.2'
-gem 'bootstrap-sass', '~> 3.3'
-gem 'ckeditor', '~> 4.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.8'
 # Use sqlite3 as the database for Active Record
@@ -47,3 +45,12 @@ group :development do
   gem 'spring'
 end
 
+gem 'simple_form', '~>3.2'
+
+gem 'bootstrap-sass', '~> 3.3'
+
+gem 'ckeditor', '~> 4.1'
+gem 'carrierwave'
+gem 'mini_magick'
+
+gem 'devise', '3.5.2'
